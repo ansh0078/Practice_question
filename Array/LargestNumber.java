@@ -2,6 +2,7 @@ import java.util.*;
 public class LargestNumber {
     static int getLargestNumber(int numbers[]) {
         int max = Integer.MIN_VALUE;
+        System.out.println(max);
         for (int i = 0; i < numbers.length; i++) {
             if(numbers[i] >= max){
                 max = numbers[i];
@@ -12,6 +13,7 @@ public class LargestNumber {
     }
     static int getSmallestNumber(int numbers[]) {
         int min = Integer.MAX_VALUE;
+        System.out.println(min);
         for (int i = 0; i < numbers.length; i++) {
             if(numbers[i] <= min){
                 min = numbers[i];
