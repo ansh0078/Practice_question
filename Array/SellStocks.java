@@ -1,6 +1,7 @@
 public class SellStocks {
     static int buyAndSellStocks(int prices[]) {
         int buyPrice = Integer.MAX_VALUE;
+        System.out.println(buyPrice);
         int maxProfit = 0;
         for (int i = 0; i < prices.length; i++) {
             if(buyPrice < prices[i]) {
